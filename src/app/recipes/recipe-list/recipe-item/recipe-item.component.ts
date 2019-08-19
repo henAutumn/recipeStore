@@ -10,7 +10,7 @@ export class RecipeItemComponent implements OnInit {
   @Output() recipeDetails = new EventEmitter<void>(); 
   constructor() { }
 
-  sendRecipesDetail(){
+  sendRecipesDetail(r, e){
     this.recipeDetails.emit()
   }
 
